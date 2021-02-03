@@ -1,15 +1,15 @@
 import './App.css';
 import Adventure from './components/Adventure.js';
 import Footer from './components/Footer.js';
+import Header from './components/Header.js';
 import Home from './components/Home.js';
 import Resume from './components/Resume.js';
-import Sidebar from './components/Sidebar.js';
 import { Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <Sidebar/>
+      <Header/>
       <div className="content">
         <Switch>
           <Route exact path='/' component={Home}></Route>
