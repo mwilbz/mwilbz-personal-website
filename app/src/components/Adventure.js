@@ -1,13 +1,11 @@
-import Sidebar from "./Sidebar.js";
-import eichorn from "./images/cathedral_peak.jpg";
-import fairview from "./images/fairview_dome.jpg";
-import matthes from "./images/matthes_crest.jpg";
-import snakeDike from "./images/snake_dike.jpg";
+import eichorn from "../images/cathedral_peak.jpg";
+import fairview from "../images/fairview_dome.jpg";
+import matthes from "../images/matthes_crest.jpg";
+import snakeDike from "../images/snake_dike.jpg";
 
 function Adventure() {
   return (
     <div class="Adventure">
-      <Sidebar/>
       <div className="body">
         <div className="Adventure-body">
           <h1>Adventure</h1>

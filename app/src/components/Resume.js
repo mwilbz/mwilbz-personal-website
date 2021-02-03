@@ -1,9 +1,6 @@
-import Sidebar from "./Sidebar.js";
-
 function Resume() {
   return (
     <div class="Resume">
-      <Sidebar/>
       <div className="body">
         <div className="Resume-body">
           <h1>Matt Wilber</h1>
