@@ -17,9 +17,9 @@ function Home() {
             (especially in NLP).</p>
           <div class="footer">
             <div class="footer-content">
-              <a href="mailto:mattwilber94@gmail.com"><img src={email} width="24px"/></a>
-              <a href="https://www.linkedin.com/in/mattwilber/"><img src={linkedin} width="24px"/></a>
-              <a href="https://github.com/mwilbz"><img src={github} width="24px"/></a>
+              <a href="mailto:mattwilber94@gmail.com"><img src={email} alt="Email icon" width="24px"/></a>
+              <a href="https://www.linkedin.com/in/mattwilber/"><img src={linkedin} alt="LinkedIn icon" width="24px"/></a>
+              <a href="https://github.com/mwilbz"><img src={github} alt="Github icon" width="24px"/></a>
             </div>
           </div>
         </div>
