@@ -19,9 +19,10 @@ function Resume() {
             <ul>
               <li>Built autoscaling, GPU-enabled Kubernetes cluster on Amazon EKS, using custom AMIs for healthcare-grade security</li>
               <li>Trained, deployed, and served hundreds of containerized machine learning models and workloads</li>
-              <li>Wrote infrastructure as code on AWS using Terraform, Ansible and Packer</li>
-              <li>Built NLP-powered web applications on a React/Flask/Elasticsearch stack</li>
               <li>Generated massive healthcare knowledge graph (billions of edges!) using Airflow</li>
+              <li>Built NLP-powered medical text search and annotation applications backed by a healthcare knowledge graph
+                on a React/Flask/Elasticsearch stack</li>
+              <li>Wrote infrastructure as code on AWS using Terraform, Ansible and Packer</li>
               <li>Implemented continuous integration and deployment pipelines on Jenkins, using tools including pylint, mypy, Docker, 
                 and Ansible</li>
             </ul>
