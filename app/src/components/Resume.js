@@ -49,7 +49,7 @@ function Resume() {
 
           <p>
             <b>High Frequency Trading Intern</b>, <i>Citadel</i> (Summer 2014). Developed and deployed statistical model of trade-execution
-              latency.
+              latency in C++ and R.
           </p>
 
           <h2>Education</h2>
