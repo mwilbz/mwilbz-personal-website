@@ -6,12 +6,12 @@ function Resume() {
       <Sidebar/>
       <div className="body">
         <div className="Resume-body">
-          <h1>Resume</h1>
+          <h1>Matt Wilber</h1>
           <h2>Skills</h2>
           <ul>
             <li><b>Programming languages</b>: Python, Java, Scala, R</li>
-            <li><b>Machine Learning/Data Science</b>: Pytorch, sklearn, numpy, scipy, matplotlib, ggplot, R Shiny, tidyr</li>
-            <li><b>Big Data Processing</b>: Spark, Redshift, Amazon RDS, Postgres, MySQL, Elasticsearch, Grafana</li>
+            <li><b>Machine Learning/Data Science</b>: Pytorch, Jupyter, sklearn, numpy, scipy, matplotlib, ggplot, R Shiny, tidyr</li>
+            <li><b>Big Data Processing</b>: Spark, Redshift, Amazon RDS, Postgres, MySQL, Elasticsearch, Airflow, Grafana</li>
             <li><b>DevOps/Infrastructure</b>: Kubernetes, Docker, AWS, Jenkins, Terraform, Ansible, Packer</li>
             <li><b>App Development</b>: Flask, React, NodeJS</li>
           </ul>
@@ -24,6 +24,7 @@ function Resume() {
               <li>Trained, deployed, and served hundreds of containerized machine learning models and workloads</li>
               <li>Wrote infrastructure as code on AWS using Terraform, Ansible and Packer</li>
               <li>Built NLP-powered web applications on a React/Flask/Elasticsearch stack</li>
+              <li>Generated massive healthcare knowledge graph (billions of edges!) using Airflow</li>
               <li>Implemented continuous integration and deployment pipelines on Jenkins, using tools including pylint, mypy, Docker, 
                 and Ansible</li>
             </ul>
@@ -38,13 +39,14 @@ function Resume() {
                 hours to ~15 hours</li>
               <li>Reduced complexity of managing and debugging our job-dependency graph by over twofold, by sorting dependency 
                 graph with a topological sort and removing redundant dependencies.</li>
+              <li>Built low-latency key-value store based on RocksDB</li>
               <li>Wrote automated data quality checks and real-time monitoring of compute clusters</li>
             </ul>
           </p>
 
           <p>
             <b>Search Quality Intern</b>, <i>Yelp</i> (Summer 2015). Improved search results for misspelled queries, by adding 
-              Kneser-Ney smoothing to the language model underlying query categorization.
+              Kneser-Ney smoothing to the language models underlying Bayesian query categorization.
           </p>
 
           <p>
