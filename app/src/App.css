@@ -63,14 +63,14 @@
 
 .footer {
   position: absolute;
-  width: 300px;
   bottom: 0px;
-  left: 450px;
-  margin-left: -150px;
+  left: 150px;
+  right: 0px;
   padding: 10px;
 }
 
 .footer-content {
+  max-width: 600px;
   display: flex;
   justify-content: space-evenly;
 }

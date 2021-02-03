@@ -50,7 +50,7 @@ function Resume() {
           </p>
 
           <p>
-            <b>High Frequency Trading Intern</b>, <i>Citadel</i> (Summer 2014). Develop and deployed statistical model of trade-execution
+            <b>High Frequency Trading Intern</b>, <i>Citadel</i> (Summer 2014). Developed and deployed statistical model of trade-execution
               latency.
           </p>
 
