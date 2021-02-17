@@ -1,8 +1,12 @@
+import resumePdf from '../images/ResumeWilber.pdf';
+
+
 function Resume() {
   return (
     <div class="Resume">
       <div className="body">
         <div className="Resume-body">
+          <a href={resumePdf}>PDF Version</a>
           <h1>Matt Wilber</h1>
           <h2>Skills</h2>
           <ul>
@@ -55,22 +59,18 @@ function Resume() {
           <h2>Education</h2>
 
           <p>
-            <b>Master of Engineering in Computer Science</b>, <i>Cornell University</i> (2020-2021).
+            <b>Master of Engineering in Computer Science</b>, <i>Cornell University</i> GPA 4.0 (2020-2021).
             <ul>
-              <li><b>NLP</b>: Natural Language Processing; Computational Linguistics II; Advanced Language Technologies; NLP and Machine Learning</li>
-              <li><b>Other ML</b>: Introduction to Computer Vision; Reinforcement Learning</li>
-              <li><b>Misc.</b>: Behavior and Information Technology; Game Theory</li>
-              <li><b>Research</b>: Abstractive Document Summarization</li>
+              <li><b>Machine Learning</b>: Deep Probabilistic and Generative Models; Large Scale Machine Learning; Reinforcement Learning, Natural Language Processing; Computational Linguistics II</li>
+              <li><b>Misc.</b>: Networks and Markets; Game Theory; Behavior and Information Technology</li>
             </ul>
           </p>
           <p>
-            <b>Bachelor of Science in Mathematics</b>, <i>Harvey Mudd College</i> (2012-2016).
+            <b>Bachelor of Science in Mathematics</b>, <i>Harvey Mudd College</i> GPA 3.7 (2012-2016).
             <ul>
-              <li><b>CS</b>: Intro to CS; Principles of Computer Science; Data Structures and Program Development; Algorithms,
-                Computational Biology</li>
-              <li><b>Statistics</b>: Intro to Statistics; Bayesian Statistics; Time Series; Statistical Linear Models</li>
-              <li><b>Math</b>: Abstract Algebra; Partial Differential Equations; Intermediate Linear Algebra; Algebraic Geometry;
-                Vector Calculus</li>
+              <li><b>CS</b>: Data Structures and Program Development; Algorithms, Computational Biology</li>
+              <li><b>Statistics</b>: Bayesian Statistics; Time Series; Statistical Linear Models</li>
+              <li><b>Math</b>: Abstract Algebra; Partial Differential Equations; Intermediate Linear Algebra; Algebraic Geometry</li>
               <li><b>Research</b>: Computational biology, reconstructing the evolutionary tree of E. Coli with information-theoretic
                 clustering optimization</li>
             </ul>
