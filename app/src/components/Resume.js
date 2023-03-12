@@ -1,12 +1,8 @@
-import resumePdf from '../images/ResumeWilber.pdf';
-
-
 function Resume() {
   return (
     <div class="Resume">
       <div className="body">
         <div className="Resume-body">
-          <a href={resumePdf}>PDF Version</a>
           <h1>Matt Wilber</h1>
 
           <p>I am a generalist who’s been professionally writing software since 2016. I’ve built data pipelines, ML platforms, and web apps. I have a strong background in mathematics and machine learning, which I balance with human-centered research and design. I enjoy contributing to others’ career growth and I aim to have a positive and ethical impact on the world.</p>
