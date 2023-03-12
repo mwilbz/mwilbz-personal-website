@@ -8,15 +8,38 @@ function Resume() {
         <div className="Resume-body">
           <a href={resumePdf}>PDF Version</a>
           <h1>Matt Wilber</h1>
+
+          <p>I am a generalist who’s been professionally writing software since 2016. I’ve built data pipelines, ML platforms, and web apps. I have a strong background in mathematics and machine learning, which I balance with human-centered research and design. I enjoy contributing to others’ career growth and I aim to have a positive and ethical impact on the world.</p>
+
           <h2>Skills</h2>
           <ul>
-            <li><b>Programming languages</b>: Python, Java, Scala, R</li>
+            <li><b>Programming languages</b>: Python, Java, Scala, R, C++, C#, Javascript</li>
             <li><b>Machine Learning/Data Science</b>: Pytorch, Jupyter, sklearn, numpy, scipy, matplotlib, ggplot, R Shiny, tidyr</li>
             <li><b>Big Data Processing</b>: Spark, Redshift, Amazon RDS, Postgres, MySQL, Elasticsearch, Airflow, Grafana</li>
-            <li><b>DevOps/Infrastructure</b>: Kubernetes, Docker, AWS, Jenkins, Terraform, Ansible, Packer</li>
-            <li><b>App Development</b>: Flask, React, NodeJS</li>
+            <li><b>DevOps/Infrastructure</b>: Kubernetes, Docker, AWS, Azure, Google Cloud, Jenkins, Terraform, Ansible, Packer</li>
+            <li><b>App Development</b>: Flask, React, Node</li>
           </ul>
           <h2>Work Experience</h2>
+
+          <p>
+            <b>Senior Software Engineer</b>, <i>Microsoft Word</i> (2021-Present).
+            <p>Owned continuous integration and lead our on-call rotation.</p>
+            <ul>
+              <li>Migrated Word’s CI system from Source Depot and an Office-specific pipeline orchestration system to Git and Azure DevOps</li>
+              <li>Reduced pull request validation runtime from 2h30m to 1h40m, and reducing CI validation runtime from 6h to 4h</li>
+              <li>Established an Office-wide community for CI owners across teams, for centralized troubleshooting, information sharing, and training</li>
+              <li>I’m told the bi-weekly feedback, clear and complete documentation, and intentional project scoping I gave my rotating engineers set a new standard for how we should be setting engineers up for growth and success in Word</li> 
+            </ul>
+          </p>
+
+          <p>
+            <b>Applied Scientist II</b>, <i>Microsoft Bing</i> (2020-2021).
+            <p>Worked on the ML side of web document indexing and retrieval.</p>
+            <ul>
+              <li>Established interpretability metrics to understand anisotropy in the document embedding space</li>
+              <li>Reduced our Git repo size by 90% by deleting trained models in the object database</li>
+            </ul>
+          </p>
 
           <p>
             <b>Senior Machine Learning Platform Engineer</b>, <i>Roam Analytics</i> (2018-2020).
