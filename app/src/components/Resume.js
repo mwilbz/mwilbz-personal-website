@@ -19,19 +19,20 @@ function Resume() {
 
           <p>
             <b>Senior Software Engineer</b>, <i>Microsoft Word</i> (2021-Present).
-            <p>Owned continuous integration and lead our on-call rotation.</p>
+            <p>Owned continuous integration, migrating Word to build/test on Git and Azure Devops.</p>
             <ul>
-              <li>Migrated Word’s CI system from Source Depot and an Office-specific pipeline orchestration system to Git and Azure DevOps</li>
-              <li>Reduced pull request validation runtime from 2h30m to 1h40m, and reducing CI validation runtime from 6h to 4h</li>
-              <li>Established an Office-wide community for CI owners across teams, for centralized troubleshooting, information sharing, and training</li>
-              <li>I’m told the bi-weekly feedback, clear and complete documentation, and intentional project scoping I gave my rotating engineers set a new standard for how we should be setting engineers up for growth and success in Word</li> 
+              <li>Implemented Azure Pipelines in YAML to leverage distributed, incremental builds and testing.</li>
+              <li>In doing so, reduced pull request build/test by 33%, and sped up CI build/test by 33%, reducing the time from commit to release by 3 hours.</li>
+              <li>This was driven by data analytics, using KQL against historical build/test data in the Kusto data store to identify opportunities for speedups.</li>
+              <li>Implemented CLI that enabled operations to automatically identify “culprit” commits causing a CI batch to fail build/test, reducing average time-to-fix from 12 hours to 1 hour.</li> 
             </ul>
           </p>
 
           <p>
             <b>Applied Scientist II</b>, <i>Microsoft Bing</i> (2020-2021).
-            <p>Worked on the ML side of web document indexing and retrieval.</p>
+            <p>Trained Transformer models for web document indexing and retrieval, for both search and recommendation.</p>
             <ul>
+              <li>Used SQL-like data pipeline interface to prepare and clean web-scale web document datasets for training.</li>
               <li>Established interpretability metrics to understand anisotropy in the document embedding space</li>
               <li>Reduced our Git repo size by 90% by deleting trained models in the object database</li>
             </ul>
@@ -40,26 +41,24 @@ function Resume() {
           <p>
             <b>Senior Machine Learning Platform Engineer</b>, <i>Roam Analytics</i> (2018-2020).
             <ul>
-              <li>Built autoscaling, GPU-enabled Kubernetes cluster on Amazon EKS, using custom AMIs for healthcare-grade security</li>
-              <li>Trained, deployed, and served hundreds of containerized machine learning models and workloads</li>
-              <li>Generated massive healthcare knowledge graph (billions of edges!) using Airflow</li>
-              <li>Built NLP-powered medical text search and annotation applications backed by a healthcare knowledge graph
-                on a React/Flask/Elasticsearch stack</li>
+              <li>Built autoscaling, GPU-enabled Kubernetes cluster hosting Jupyter notebooks on Amazon EKS.</li>
+              <li>Built custom AMIs for healthcare grade security.</li>
+              <li>Trained, deployed, and served hundreds of Dockerized machine learning models and workloads.</li>
+              <li>Generated massive healthcare knowledge graph (billions of edges) using Airflow.</li>
+              <li>Built NLP-powered medical text search and annotation web applications Python/Flask/Javascript/Node/React/Elasticsearch stack.</li>
               <li>Wrote infrastructure as code on AWS using Terraform, Ansible and Packer</li>
-              <li>Implemented continuous integration and deployment pipelines on Jenkins, using tools including pylint, mypy, Docker, 
-                and Ansible</li>
+              <li>Implemented continuous integration and deployment pipelines on Jenkins, using tools including pylint and mypy.</li>
             </ul>
           </p> 
 
           <p>
             <b>Senior Data Engineer</b>, <i>Wealthfront</i> (2016-2018).
             <ul>
-              <li>Wrote 30+ Spark pipelines for big data processing</li>
-              <li>Sped up batch event writes to database by 2x compared to the Hibernate ORM</li>
-              <li>Implemented Spark cluster autoscaling + optimized parittioning, reducing daily runtime of all batch jobs from 24+ 
-                hours to ~15 hours</li>
-              <li>Reduced complexity of managing and debugging our job-dependency graph by over twofold, by sorting dependency 
-                graph with a topological sort and removing redundant dependencies.</li>
+              <li>Wrote 30+ Spark pipelines for big data processing, as well as ETL pipelines.</li>
+              <li>Sped up batch event writes to MySQL database by 2x.</li>
+              <li>Built analytics dashboards using Redshift, R, and Grafana.</li>
+              <li>Implemented Spark cluster autoscaling + optimized partitioning, reducing daily runtime of all batch jobs from 24+ hours to 15 hours.</li>
+              <li>Reduced complexity of job-dependency graph by over twofold.</li>
               <li>Built low-latency key-value store based on RocksDB</li>
               <li>Wrote automated data quality checks and real-time monitoring of compute clusters</li>
             </ul>
